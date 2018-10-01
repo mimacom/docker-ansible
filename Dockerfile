@@ -5,7 +5,7 @@ ENV ANSIBLE_VERSION 2.6.5
 
 RUN \
   apk --update add sudo && \
-  apk --update add python py-pip openssl ca-certificates && \
+  apk --update add python py-pip openssl ca-certificates git && \
   apk --update add --virtual build-dependencies python-dev libffi-dev openssl-dev build-base && \
   pip install --upgrade pip cffi && \
   pip install ansible==${ANSIBLE_VERSION} && \

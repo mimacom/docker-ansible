@@ -6,5 +6,4 @@ deployment/delivery pipeline using docker.
 Use tags to specify what ansible version you want to use.
 
 # Example usage
-docker run -ti -v "$(pwd)":/media/docker --name ansible --rm
-mimacom/ansible:latest
+    docker run -ti -v "$(pwd)":/media/docker --name ansible --rm mimacom/ansible:latest sh

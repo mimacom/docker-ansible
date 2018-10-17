@@ -1,7 +1,7 @@
 FROM alpine:3.8
 MAINTAINER Remo Wenger <remo.wenger@mimacom.com>
 
-ENV ANSIBLE_VERSION 2.6.5
+ENV ANSIBLE_VERSION 2.7.0
 
 RUN \
   apk --update add sudo && \
